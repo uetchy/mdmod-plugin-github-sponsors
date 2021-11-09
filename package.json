@@ -1,0 +1,51 @@
+{
+  "name": "mdmod-plugin-github-sponsors",
+  "description": "mdmod plugin for updating sponsors list in README",
+  "version": "0.1.0",
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io)",
+  "scripts": {
+    "build": "yarn build:ts --minify",
+    "build:ts": "tsup src/index.ts -d lib",
+    "clean": "shx rm -rf lib",
+    "dev": "yarn build:ts --watch",
+    "prepublishOnly": "yarn clean && yarn build",
+    "pretest": "yarn build",
+    "test": "jest"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@forbital/github-token": "^5.0.1",
+    "apollo-boost": "^0.4.9",
+    "cross-fetch": "^3.1.4",
+    "graphql": "^15"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "mdmod": "^1.0.0",
+    "shx": "^0.3.3",
+    "ts-jest": "^27.0.7",
+    "tsup": "^5.6.0",
+    "typescript": "^4.4.4"
+  },
+  "lint-staged": {
+    "*.md": "mdmod --define.owner=$(git config github.user)"
+  },
+  "homepage": "https://github.com/uetchy/mdmod-plugin-github-sponsors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uetchy/mdmod-plugin-github-sponsors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uetchy/mdmod-plugin-github-sponsors/issues"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "mdmod"
+  ]
+}
