@@ -12,7 +12,9 @@ const handler: Handler = async ({ constants, args }) => {
 
   const table = sponsors
     .map((sponsor: any) => {
-      return `[<img src="${sponsor.avatarUrl}" width="${width}" />](https://github.com/${sponsor.login})`;
+      return `[<img src="${sponsor.avatarUrl}" width="${width}" alt="${
+        sponsor.name ?? sponsor.login
+      }" />](${sponsor.websiteUrl ?? `https://github.com/${sponsor.login}`})`;
     })
     .join(" ");
 

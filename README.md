@@ -25,27 +25,27 @@ It will generate a list of GitHub sponsors:
 ```md
 <!-- START mdmod {use: 'github-sponsors'} -->
 
-[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="80" />](https://github.com/Naturalclar) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="80" />](https://github.com/Lierin8oracle)
+[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="80" alt="Jesse Katsumata" />](https://naturalclar.dev) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="80" alt="Lierin8oracle" />](https://github.com/Lierin8oracle)
 
 <!-- END mdmod -->
 ```
 
 <!-- START mdmod {use: 'github-sponsors'} -->
 
-[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="80" />](https://github.com/Naturalclar) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="80" />](https://github.com/Lierin8oracle)
+[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="80" alt="Jesse Katsumata" />](https://naturalclar.dev) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="80" alt="Lierin8oracle" />](https://github.com/Lierin8oracle)
 
 <!-- END mdmod -->
 
 ```md
 <!-- START mdmod {use: ['github-sponsors', {width: 50}]} -->
 
-[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="50" />](https://github.com/Naturalclar) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="50" />](https://github.com/Lierin8oracle)
+[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="50" alt="Jesse Katsumata" />](https://naturalclar.dev) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="50" alt="Lierin8oracle" />](https://github.com/Lierin8oracle)
 
 <!-- END mdmod -->
 ```
 
 <!-- START mdmod {use: ['github-sponsors', {width: 50}]} -->
 
-[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="50" />](https://github.com/Naturalclar) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="50" />](https://github.com/Lierin8oracle)
+[<img src="https://avatars.githubusercontent.com/u/6936373?u=4edd14e6636c45d10ac6a3eecb4b3ffa6cc2bf5c&v=4" width="50" alt="Jesse Katsumata" />](https://naturalclar.dev) [<img src="https://avatars.githubusercontent.com/u/79023920?v=4" width="50" alt="Lierin8oracle" />](https://github.com/Lierin8oracle)
 
 <!-- END mdmod -->
